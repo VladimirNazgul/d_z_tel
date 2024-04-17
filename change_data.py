@@ -13,7 +13,7 @@ def change_data():
                            f"от 1 до {count_rows}: "))
   name = input("Введите имя: ")
   surname = input("Введите фамилию: ")
-  phone = input("Введите дату рождения: ")
+  phone = input("Введите номер телефона: ")
   adress = input("Введите город: ")
   data[number_row - 1] = f'{number_row};{name};{surname};{phone};{adress}\n'
   with open(f'data.csv', 'w', encoding='utf-8') as file:
